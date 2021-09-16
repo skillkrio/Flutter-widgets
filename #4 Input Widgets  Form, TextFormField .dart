@@ -27,6 +27,7 @@ class Myhomepage extends StatefulWidget {
 
 class _MyhomepageState extends State<Myhomepage> {
   String title = "Input Widget";
+  //keys are used to connect with the desired form
   GlobalKey<FormState> formkey = GlobalKey();
   @override
   Widget build(BuildContext context) {
@@ -48,6 +49,7 @@ class _MyhomepageState extends State<Myhomepage> {
                   hintText: "hello",
                 ),
                 validator: (value) {
+                  //Validator must return null
                   if (value.isEmpty) {
                     return "Please Enter your First Name";
                   } else
