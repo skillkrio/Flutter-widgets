@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 
 class MyApp extends StatelessWidget {
-  final String title = "RoatedBox";
+  final String title = "RotatedBox";
 
   @override
   Widget build(BuildContext context) {
